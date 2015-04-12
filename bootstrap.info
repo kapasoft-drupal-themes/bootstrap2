@@ -1,7 +1,7 @@
 name = Bootstrap
 description = Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development.
 core = 7.x
-version = v0.2
+version = v0.3
 
 regions[navigation]     = 'Navigation'
 regions[header]         = 'Top Bar'
@@ -15,7 +15,6 @@ regions[footer]         = 'Footer'
 settings[toggle_name] = 0
 settings[toggle_search] = 1
 settings[cdn_bootstrap] = 1
-version = 2.3.3
 
 ;Exclude
 ;javascript
