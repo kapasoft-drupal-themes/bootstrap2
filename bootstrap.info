@@ -1,7 +1,7 @@
 name = Bootstrap
-description = Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development.
+description = Built to use Bootstrap 2.3.2, a sleek, intuitive, and powerful front-end framework for faster and easier web development.
 core = 7.x
-version = v0.3
+version = v0.4
 
 regions[navigation]     = 'Navigation'
 regions[header]         = 'Top Bar'
@@ -14,13 +14,15 @@ regions[footer]         = 'Footer'
 
 settings[toggle_name] = 0
 settings[toggle_search] = 1
-settings[cdn_bootstrap] = 1
+settings[cdn_bootstrap] = 0
 
 ;Exclude
 ;javascript
 ;exclude[js][] = 'modules/contextual/contextual.js'
+scripts[] = 'bootstrap/js/bootstrap.min.js'
 
 ;css
+stylesheets[all][] = bootstrap/css/bootstrap.min.css
 ;exclude[css][] = 'misc/vertical-tabs.css'
 exclude[css][] = 'modules/aggregator/aggregator.css'
 exclude[css][] = 'modules/block/block.css'
